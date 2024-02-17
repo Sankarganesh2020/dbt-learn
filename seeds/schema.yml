@@ -1,0 +1,10 @@
+version : 2
+seeds:
+  - name: employees
+    description: Manual data for Employee to customer mapping.
+    columns:
+      - name: employee_id
+        description: The primary key for employees.
+        tests:
+          - unique
+          - not_null
